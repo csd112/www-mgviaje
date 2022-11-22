@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    table {
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This website is for lab purpose only.">
+    <meta name="author" content="Mary Grace Viaje">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6e6e6e">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>CSD112 - Mary Grace Viaje - 21121591</title>
+</head>
+
+<body>
+    <div class="width-wrap">
+        <div><img src="images/saultcollege.png" alt="sault college"></div>
+        <header id="top">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="links.html">Links</a></li>
+                    <li><a href="glossary.html">Glossary</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Survey</h1>
+            <form action="https://formspree.io/f/mrgddwdw" method="post">
+                <label for="name">What is your name?* </label> <input type="text" id="name_field" name="name_field"><br>
+                <label for="email">What is your email?* </label> <input type="text" id="email_field" name="email_field"><br>
+                <label for="number">Which whole number is best?* </label> <input type="number" id="best_whole_number" name="best_whole_number"><br>
+                <label for="day"> Which day is best?* </label> <input type="date" id="best_day" name="best_day"><br>
+                <label for="bear"> Which bear is best?* </label>
+                <select name="best_bear" id="best_bear">
+                    <option value="Black">Black</option>
+                    <option value="Brown">Brown</option>
+                    <option value="Care">Care</option>
+                    <option value="Panda">Panda</option>
+                </select>
+                <br>
+                <fieldset>
+                    <label for="radio">Do you like radio buttons?* </label>
+                    <br><input type="radio"> Yes
+                    <br><input type="radio"> No
+                    <br><input type="radio"> None of your business
+                    <br>
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form> 
+
+        </main>
+    </div>
+</body>
+
+</html>
